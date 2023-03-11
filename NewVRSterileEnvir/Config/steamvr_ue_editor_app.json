@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.newvrsterileenvir-20979098.unrealeditor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "E:/Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "NewVRSterileEnvir-20979098 [UE Editor]"
+				}
+			}
+		}
+	]
+}
