@@ -2896,3 +2896,835 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.11-12.08.18:241][440]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
 [2023.03.11-12.08.18:244][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
 [2023.03.11-12.08.18:269][441]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.03.11-12.11.12:591][433]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.11-12.11.12:612][433]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.11-12.11.55:981][313]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2023.03.11-12.11.55:995][313]LogContentBrowser: Creating deferred item: NewInterface
+[2023.03.11-12.11.56:100][315]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2023.03.11-12.12.08:254][642]LogContentBrowser: Attempting asset rename: NewInterface -> Grab
+[2023.03.11-12.12.08:261][642]LogContentBrowser: End creating deferred item NewInterface
+[2023.03.11-12.12.11:667][938]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Interfaces/Grab.Grab
+[2023.03.11-12.12.11:667][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-12.12.32:383][307]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.03.11-12.14.46:883][355]BlueprintLog: New page: Compile Grab
+[2023.03.11-12.14.46:969][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.03.11-12.14.47:775][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/Grab" FILE="../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/Interfaces/Grab.uasset" SILENT=true
+[2023.03.11-12.14.47:778][404]LogSavePackage: Moving output files for package: /Game/Interfaces/Grab
+[2023.03.11-12.14.47:779][404]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Grab091998DD47E664CB010EDE83893A8D00.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/Interfaces/Grab.uasset'
+[2023.03.11-12.14.47:803][404]AssetCheck: New page: Asset Save: Grab
+[2023.03.11-12.14.47:804][404]LogContentValidation: Display: Validating Blueprint /Game/Interfaces/Grab.Grab
+[2023.03.11-12.14.50:850][684]LogSlate: Window 'Grab' being destroyed
+[2023.03.11-12.16.02:940][208]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.11-12.16.04:131][208]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.11-12.16.04:145][208]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.11-12.16.04:160][208]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.11-12.16.04:182][209]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.03.11-12.16.08:558][550]LogContentBrowser: Attempting asset rename: NewBlueprint -> Flashlight
+[2023.03.11-12.16.08:564][550]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.11-12.16.10:392][702]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight
+[2023.03.11-12.16.10:392][702]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-12.16.11:042][702]LogViewport: Scene viewport resized to 1141x791, mode Windowed.
+[2023.03.11-12.16.23:302][752]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.03.11-12.16.23:302][752]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.03.11-12.16.29:235][409]LogMetaData: Removing '/Game/VRTemplate/Interfaces/Grab.SKEL_Grab_C' ref from Metadata '/Game/Interfaces/Grab.PackageMetaData'
+[2023.03.11-12.16.29:235][409]LogMetaData: Removing '/Game/VRTemplate/Interfaces/Grab.Grab_C' ref from Metadata '/Game/Interfaces/Grab.PackageMetaData'
+[2023.03.11-12.16.29:235][409]LogMetaData: Removing '/Game/VRTemplate/Interfaces/Grab.Grab:Grab.K2Node_FunctionEntry_0' ref from Metadata '/Game/Interfaces/Grab.PackageMetaData'
+[2023.03.11-12.16.29:235][409]LogMetaData: Removing '/Game/VRTemplate/Interfaces/Grab.Grab:Release.K2Node_FunctionEntry_0' ref from Metadata '/Game/Interfaces/Grab.PackageMetaData'
+[2023.03.11-12.16.29:235][409]LogMetaData: Removing '/Game/VRTemplate/Interfaces/Grab.Grab:Interact.K2Node_FunctionEntry_0' ref from Metadata '/Game/Interfaces/Grab.PackageMetaData'
+[2023.03.11-12.16.29:270][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Interfaces/Grab" FILE="../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Interfaces/Grab.uasset" SILENT=true
+[2023.03.11-12.16.29:273][409]LogSavePackage: Moving output files for package: /Game/VRTemplate/Interfaces/Grab
+[2023.03.11-12.16.29:273][409]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Grab2F654CE84A50950EF51F9A93C3673267.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Interfaces/Grab.uasset'
+[2023.03.11-12.16.29:400][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.03.11-12.16.29:475][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.03.11-12.16.29:547][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.03.11-12.16.29:652][409]AssetCheck: New page: Asset Save: Grab
+[2023.03.11-12.16.29:652][409]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Interfaces/Grab.Grab
+[2023.03.11-12.22.37:339][694]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Courses\Senior Project\SeniorProjectVR_Hands\NewVRSterileEnvir\Content\FlashAsset\flashlight.obj)
+[2023.03.11-12.22.37:442][694]LogFbx: Loading FBX Scene from E:\Courses\Senior Project\SeniorProjectVR_Hands\NewVRSterileEnvir\Content\FlashAsset\flashlight.obj
+[2023.03.11-12.22.37:465][694]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.11-12.22.42:058][694]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.03.11-12.22.42:333][694]LogMaterial: Display: Missing cached shadermap for modelMat in PCD3D_SM5, Default, SM5 (DDC key hash: 88C361A99FFB471BCAFA75C97CB756304EA2EF9C), compiling. 
+[2023.03.11-12.22.42:647][694]LogStaticMesh: Display: Building static mesh flashlight...
+[2023.03.11-12.22.42:846][694]LogStaticMesh: Built static mesh [0.18s] /Game/FlashAsset/flashlight.flashlight
+[2023.03.11-12.22.43:324][694]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.11-12.22.48:302][989]LogSlate: Window 'Message Log' being destroyed
+[2023.03.11-12.22.48:318][989]LogSlate: Window 'Message Log' being destroyed
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: ================================================
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.03.11-12.22.50:181][ 97]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Job execution time: average 6.03 s, max 6.03 s
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Job life time (pending + execution): average 6.07 s, max 6.07
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.07 s
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Average processing rate: 0.16 jobs/sec
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Effective parallelization: 0.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 3.27 sec, max 3.27 sec, min 3.27 sec)
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 3.27 sec, max 3.27 sec, min 3.27 sec)
+[2023.03.11-12.22.50:186][ 97]LogShaderCompilers: Display: ================================================
+[2023.03.11-12.23.08:075][535]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-12.23.08:075][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-12.23.17:178][341]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FlashAsset/flashlight.flashlight
+[2023.03.11-12.23.17:178][341]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FlashAsset/flashlight.flashlight
+[2023.03.11-12.23.17:218][341]LogActorFactory: Actor Factory spawned StaticMesh /Game/FlashAsset/flashlight.flashlight as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_0
+[2023.03.11-12.25.36:992][979]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/Flashlight
+[2023.03.11-12.25.36:992][979]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Flashlight2B1954EE4B85D4F1AC09A8A01B4DEF36.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Blueprints/Flashlight.uasset'
+[2023.03.11-12.25.37:016][979]AssetCheck: New page: Asset Save: Flashlight
+[2023.03.11-12.25.37:016][979]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight
+[2023.03.11-12.26.40:793][420]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.11-12.29.31:992][437]LogUObjectHash: Compacting FUObjectHashTables data took   7.46ms
+[2023.03.11-12.29.31:994][437]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.149
+[2023.03.11-12.29.31:995][437]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/Flashlight] ([2] browsable assets)...
+[2023.03.11-12.29.32:114][437]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight]
+[2023.03.11-12.29.32:115][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/Flashlight]
+[2023.03.11-12.29.32:125][437]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/Flashlight_Auto2
+[2023.03.11-12.29.32:125][437]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Flashlight_Auto2058C843941E6934F44C2CA9C8ACB9164.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Autosaves/Game/VRTemplate/Blueprints/Flashlight_Auto2.uasset'
+[2023.03.11-12.29.32:126][437]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlashAsset/flashlight] ([1] browsable assets)...
+[2023.03.11-12.29.32:136][437]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FlashAsset/flashlight.flashlight]
+[2023.03.11-12.29.32:137][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlashAsset/flashlight]
+[2023.03.11-12.29.32:160][437]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FlashAsset/flashlight_Auto2
+[2023.03.11-12.29.32:160][437]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/flashlight_Auto2EFA7624E4D3501CEA29BC19DDB72B23E.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Autosaves/Game/FlashAsset/flashlight_Auto2.uasset'
+[2023.03.11-12.29.32:161][437]LogFileHelpers: Auto-saving content packages took 0.167
+[2023.03.11-12.30.51:501][808]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.03.11-12.30.51:511][808]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.03.11-12.33.08:289][424]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/Flashlight
+[2023.03.11-12.33.08:289][424]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Flashlight08FE03104FAFDBDF14BAD482B2C6BE52.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Blueprints/Flashlight.uasset'
+[2023.03.11-12.33.08:314][424]AssetCheck: New page: Asset Save: Flashlight
+[2023.03.11-12.33.08:314][424]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight
+[2023.03.11-12.34.04:008][ 75]BlueprintLog: New page: Compile Flashlight
+[2023.03.11-12.34.04:130][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.03.11-12.34.04:869][136]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/Flashlight
+[2023.03.11-12.34.04:870][136]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Flashlight2CF082EF4333076110CECE93A76D368D.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Blueprints/Flashlight.uasset'
+[2023.03.11-12.34.04:892][136]AssetCheck: New page: Asset Save: Flashlight
+[2023.03.11-12.34.04:892][136]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C54C80
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C554F0
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C553D0
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C54B00
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C54F50
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C54B30
+[2023.03.11-12.35.26:777][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C55490
+[2023.03.11-12.35.26:778][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C55400
+[2023.03.11-12.35.26:778][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.35.26:778][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b097850 unVertexCount 10289 rIndexData 0x7aefd160 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.35.26:784][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:784][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x7ac1ad40 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.35.26:784][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:784][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x7ac1d970 unVertexCount 49 rIndexData 0xf0961440 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.35.26:784][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:785][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.35.26:785][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:785][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42db330 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.35.26:785][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:785][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x7ac20bf0 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.35.26:785][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:785][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x90cd68e0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.35.26:785][998]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.35.26:785][998]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac06e10 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C54C80
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C554F0
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C553D0
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C54B00
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C54F50
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C54B30
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C55490
+[2023.03.11-12.35.26:786][998]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C55400
+[2023.03.11-12.39.38:652][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.03.11-12.39.38:653][345]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.096
+[2023.03.11-12.39.38:654][345]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.03.11-12.39.38:747][345]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.03.11-12.39.38:747][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.03.11-12.39.38:856][345]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto3
+[2023.03.11-12.39.38:856][345]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/VRPawn_Auto3ACD0E8D2433D8DA0ABF05CA0BBA0C33B.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto3.uasset'
+[2023.03.11-12.39.38:857][345]LogFileHelpers: Auto-saving content packages took 0.204
+[2023.03.11-12.42.17:332][751]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.560 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FF10
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F8B0
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FB80
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F940
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F9A0
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FB20
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FD30
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F8E0
+[2023.03.11-12.42.21:766][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.42.21:766][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7aefd160 unVertexCount 10289 rIndexData 0x7af83530 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.42.21:772][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:772][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.42.21:772][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:772][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d50dd0 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.42.21:772][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:772][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.42.21:772][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:772][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42da9a0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.42.21:772][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:772][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.42.21:772][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:772][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7af97c90 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.42.21:773][131]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0x7ad47bf0 unVertexCount 636 rIndexData 0x7ac06e10 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FF10
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F8B0
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FB80
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F940
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F9A0
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FB20
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FD30
+[2023.03.11-12.42.21:773][131]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F8E0
+[2023.03.11-12.42.25:502][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791197E00
+[2023.03.11-12.42.25:502][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198040
+[2023.03.11-12.42.25:502][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791197AA0
+[2023.03.11-12.42.25:502][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198130
+[2023.03.11-12.42.25:502][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198580
+[2023.03.11-12.42.25:503][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198520
+[2023.03.11-12.42.25:503][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911985B0
+[2023.03.11-12.42.25:503][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791197D10
+[2023.03.11-12.42.25:503][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.42.25:503][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b0c8010 unVertexCount 10289 rIndexData 0x42fa010 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.42.25:509][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:509][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.42.25:509][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:509][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d52080 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.42.25:509][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:509][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.42.25:509][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:509][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42da9a0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.42.25:509][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:509][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.42.25:510][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.42.25:510][455]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac037f0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791197E00
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198040
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791197AA0
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198130
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198580
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198520
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911985B0
+[2023.03.11-12.42.25:510][455]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791197D10
+[2023.03.11-12.43.18:136][150]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.11-12.44.43:066][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FF70
+[2023.03.11-12.44.43:066][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FD90
+[2023.03.11-12.44.43:066][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FDC0
+[2023.03.11-12.44.43:066][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F700
+[2023.03.11-12.44.43:067][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F8B0
+[2023.03.11-12.44.43:067][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B5380000
+[2023.03.11-12.44.43:067][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FBE0
+[2023.03.11-12.44.43:067][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F6D0
+[2023.03.11-12.44.43:067][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.44.43:067][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b02e010 unVertexCount 10289 rIndexData 0x7af7ff90 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.44.43:073][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:073][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.44.43:073][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:073][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d51390 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.44.43:073][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:073][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.44.43:074][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:074][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42d8360 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.44.43:074][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:074][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.44.43:074][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:074][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.44.43:074][127]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.44.43:074][127]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac037f0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FF70
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FD90
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FDC0
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F700
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F8B0
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B5380000
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FBE0
+[2023.03.11-12.44.43:075][127]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F6D0
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791193F90
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194380
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194230
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194920
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194950
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194860
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194290
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194260
+[2023.03.11-12.45.05:713][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.45.05:713][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7af4d2e0 unVertexCount 10289 rIndexData 0x7b147010 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.45.05:717][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:717][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.45.05:718][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:718][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d510b0 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.45.05:718][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:718][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.45.05:718][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:718][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42dbcc0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.45.05:718][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:718][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.45.05:719][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.45.05:719][365]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac001d0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791193F90
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194380
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194230
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194920
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194950
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194860
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194290
+[2023.03.11-12.45.05:719][365]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194260
+[2023.03.11-12.47.32:683][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F7C0
+[2023.03.11-12.47.32:683][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FCD0
+[2023.03.11-12.47.32:683][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F8E0
+[2023.03.11-12.47.32:683][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FDF0
+[2023.03.11-12.47.32:683][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA60
+[2023.03.11-12.47.32:683][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F7F0
+[2023.03.11-12.47.32:684][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FCA0
+[2023.03.11-12.47.32:684][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FFA0
+[2023.03.11-12.47.32:684][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.47.32:684][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b147010 unVertexCount 10289 rIndexData 0x7aebd140 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.47.32:688][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:688][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.47.32:688][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:688][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d51ac0 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.47.32:689][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:689][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.47.32:689][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:689][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42d5d20 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.47.32:689][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:689][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.47.32:689][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:689][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.47.32:690][341]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0x7abaf8a0 unVertexCount 636 rIndexData 0x7ac05300 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F7C0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FCD0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F8E0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FDF0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA60
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F7F0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FCA0
+[2023.03.11-12.47.32:690][341]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FFA0
+[2023.03.11-12.49.39:351][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198F40
+[2023.03.11-12.49.39:351][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198F10
+[2023.03.11-12.49.39:351][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198730
+[2023.03.11-12.49.39:352][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791198FA0
+[2023.03.11-12.49.39:352][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911988B0
+[2023.03.11-12.49.39:352][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911991E0
+[2023.03.11-12.49.39:352][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911986A0
+[2023.03.11-12.49.39:352][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199270
+[2023.03.11-12.49.39:352][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.49.39:352][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b124ef0 unVertexCount 10289 rIndexData 0xf91903f0 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.49.39:355][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:355][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.39:355][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:355][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d51950 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.49.39:355][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:355][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.39:355][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:355][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42da9a0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.39:355][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:355][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.39:355][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:355][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.49.39:356][675]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac001d0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198F40
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198F10
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198730
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791198FA0
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911988B0
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911991E0
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911986A0
+[2023.03.11-12.49.39:356][675]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199270
+[2023.03.11-12.49.45:201][102]LogEditorTransaction: Undo Move Node
+[2023.03.11-12.49.45:517][102]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.49.45:519][102]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FB20
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F850
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FF70
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA30
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F820
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA00
+[2023.03.11-12.49.45:660][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FCD0
+[2023.03.11-12.49.45:661][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FD00
+[2023.03.11-12.49.45:661][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.49.45:661][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b10ce20 unVertexCount 10289 rIndexData 0xb5adfda0 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.49.45:664][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:664][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.45:664][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:664][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d50250 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.49.45:664][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:665][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.45:665][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:665][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42d8360 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.45:665][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:665][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.45:665][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:665][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.49.45:666][102]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7abfcbb0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FB20
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F850
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FF70
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA30
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F820
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA00
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FCD0
+[2023.03.11-12.49.45:666][102]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FD00
+[2023.03.11-12.49.46:506][173]LogEditorTransaction: Undo Promote To Variable
+[2023.03.11-12.49.47:009][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.49.47:011][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.49.47:118][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791195070
+[2023.03.11-12.49.47:118][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194F20
+[2023.03.11-12.49.47:118][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911952B0
+[2023.03.11-12.49.47:118][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194D40
+[2023.03.11-12.49.47:119][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911953A0
+[2023.03.11-12.49.47:119][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194AA0
+[2023.03.11-12.49.47:119][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791194C20
+[2023.03.11-12.49.47:119][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791195370
+[2023.03.11-12.49.47:119][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.49.47:119][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7aebd140 unVertexCount 10289 rIndexData 0x7adb5020 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.49.47:122][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:122][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.47:122][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:122][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d50dd0 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.49.47:122][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:122][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.47:122][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:122][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42d5d20 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.47:123][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.47:123][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.49.47:123][173]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac037f0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791195070
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194F20
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911952B0
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194D40
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911953A0
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194AA0
+[2023.03.11-12.49.47:123][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791194C20
+[2023.03.11-12.49.47:124][173]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791195370
+[2023.03.11-12.49.47:700][219]LogEditorTransaction: Undo Delete current selection
+[2023.03.11-12.49.48:026][219]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.49.48:027][219]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.49.48:133][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F700
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA90
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FDC0
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F5E0
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FFD0
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FD00
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F610
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F760
+[2023.03.11-12.49.48:134][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.49.48:134][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b07f010 unVertexCount 10289 rIndexData 0x3c652b0 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.49.48:137][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:137][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.48:137][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:137][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d51ac0 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.49.48:137][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:138][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.48:138][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:138][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42da9a0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.48:138][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:138][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.48:138][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:138][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.49.48:138][219]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.48:138][219]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7abfcbb0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F700
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA90
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FDC0
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F5E0
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FFD0
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FD00
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F610
+[2023.03.11-12.49.48:139][219]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F760
+[2023.03.11-12.49.54:131][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199CC0
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199480
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199A20
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911997E0
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911994B0
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199930
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199D50
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791199D80
+[2023.03.11-12.49.54:132][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.49.54:132][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b07f010 unVertexCount 10289 rIndexData 0x7afdf020 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.49.54:135][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:135][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.54:135][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:135][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d51390 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.49.54:135][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:135][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.54:135][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:135][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42da9a0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.49.54:135][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:135][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.49.54:135][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:135][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.49.54:136][718]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7ac001d0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199CC0
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199480
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199A20
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911997E0
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911994B0
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199930
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199D50
+[2023.03.11-12.49.54:136][718]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791199D80
+[2023.03.11-12.50.00:330][146]LogEditorTransaction: Undo Rename Variable
+[2023.03.11-12.50.00:874][146]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.50.00:876][146]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FDC0
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F9D0
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA00
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA30
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F8B0
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F700
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FFA0
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F970
+[2023.03.11-12.50.01:003][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.50.01:003][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b06c2a0 unVertexCount 10289 rIndexData 0x3c15ad0 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.50.01:006][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:006][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.50.01:006][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:006][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d50f40 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.50.01:006][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:006][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.50.01:006][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:006][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42da9a0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.50.01:007][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:007][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.50.01:007][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:007][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.50.01:007][146]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.01:007][146]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0x7abaf8a0 unVertexCount 636 rIndexData 0x7ac037f0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.50.01:007][146]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FDC0
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F9D0
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA00
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA30
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F8B0
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F700
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FFA0
+[2023.03.11-12.50.01:008][146]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F970
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791196C90
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791196420
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911962A0
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791196450
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911969C0
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791196330
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217911964B0
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 0000021791196A80
+[2023.03.11-12.50.07:120][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.50.07:120][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7aebd140 unVertexCount 10289 rIndexData 0x7af0d770 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.50.07:123][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:123][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.50.07:123][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:123][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d51f10 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.50.07:123][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:123][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.50.07:123][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:123][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42d66b0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.50.07:124][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.50.07:124][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.50.07:124][620]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7abfe6c0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791196C90
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791196420
+[2023.03.11-12.50.07:124][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911962A0
+[2023.03.11-12.50.07:125][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791196450
+[2023.03.11-12.50.07:125][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911969C0
+[2023.03.11-12.50.07:125][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791196330
+[2023.03.11-12.50.07:125][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217911964B0
+[2023.03.11-12.50.07:125][620]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 0000021791196A80
+[2023.03.11-12.50.15:237][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F550
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F5B0
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA60
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FB50
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FC70
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FA30
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537FFD0
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217B537F7C0
+[2023.03.11-12.50.15:238][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-12.50.15:238][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7aebd140 unVertexCount 10289 rIndexData 0x7af5e010 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-12.50.15:241][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:241][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x90ebd170 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.50.15:241][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:241][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x90ebd7c0 unVertexCount 49 rIndexData 0xb5d50810 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-12.50.15:241][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:241][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.50.15:241][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:241][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0xf129fbf0 unVertexCount 210 rIndexData 0xd42d9680 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-12.50.15:242][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x90ebde10 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-12.50.15:242][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7ad47bf0 unVertexCount 515 rIndexData 0x4797dbf0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-12.50.15:242][252]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0xc4bb5cd0 unVertexCount 636 rIndexData 0x7abfe6c0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F550
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F5B0
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA60
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FB50
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FC70
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FA30
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537FFD0
+[2023.03.11-12.50.15:242][252]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217B537F7C0
+[2023.03.11-12.54.05:037][994]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.03.11-12.54.05:037][994]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/VRPawnA7869512452A8DEC16B081B5293AD728.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.03.11-12.54.05:065][994]AssetCheck: New page: Asset Save: VRPawn
+[2023.03.11-12.54.05:065][994]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.03.11-13.42.17:393][113]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.615 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-14.42.17:384][877]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.607 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-15.42.17:388][736]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.608 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-16.42.17:388][532]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.601 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-17.42.17:412][263]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.624 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-18.42.17:384][ 26]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.590 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-19.42.17:407][551]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.620 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-20.42.17:403][917]LogDerivedDataCache: C:/Users/aaap_computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.616 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-21.20.43:862][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.03.11-21.20.43:864][999]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.116
+[2023.03.11-21.20.43:865][999]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.03.11-21.20.43:985][999]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.03.11-21.20.43:987][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.03.11-21.20.44:127][999]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto4
+[2023.03.11-21.20.44:127][999]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/VRPawn_Auto4D6C3EC67435D71517A06E5B9ECC626F2.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto4.uasset'
+[2023.03.11-21.20.44:127][999]LogFileHelpers: Auto-saving content packages took 0.263
+[2023.03.11-21.22.04:586][496]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.03.11-21.22.04:587][496]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/VRPawnB7F7367D47D4576560F10D8E7BA1B4C8.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.03.11-21.22.04:611][496]AssetCheck: New page: Asset Save: VRPawn
+[2023.03.11-21.22.04:611][496]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.03.11-21.24.14:372][848]BlueprintLog: New page: Compile VRPawn
+[2023.03.11-21.24.15:904][848]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2023.03.11-21.24.16:028][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BF2C0
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BFB00
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BF4A0
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BF6E0
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BF4D0
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BF500
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BFB90
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000218041BF950
+[2023.03.11-21.24.16:029][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-21.24.16:057][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7b0b4010 unVertexCount 10289 rIndexData 0x7affb010 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-21.24.16:061][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:061][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0x483e7b00 unVertexCount 145 rIndexData 0x7a999790 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-21.24.16:061][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:061][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x7a997800 unVertexCount 49 rIndexData 0x90dce910 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-21.24.16:062][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:062][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x7abb8360 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-21.24.16:062][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:062][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0x913c6600 unVertexCount 210 rIndexData 0xd42dbcc0 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-21.24.16:062][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:062][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9084a4f0 unVertexCount 145 rIndexData 0x7a99b720 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-21.24.16:062][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:062][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x7abaa020 unVertexCount 515 rIndexData 0x7a9c3930 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-21.24.16:063][848]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0x7aca22b0 unVertexCount 636 rIndexData 0x7ac001d0 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BF2C0
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BFB00
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BF4A0
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BF6E0
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BF4D0
+[2023.03.11-21.24.16:063][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BF500
+[2023.03.11-21.24.16:064][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BFB90
+[2023.03.11-21.24.16:064][848]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000218041BF950
+[2023.03.11-21.24.17:889][921]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.03.11-21.24.17:890][921]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/VRPawn2F904C7344B10CDCB12B77AE9B0C356C.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.03.11-21.24.17:914][921]AssetCheck: New page: Asset Save: VRPawn
+[2023.03.11-21.24.17:914][921]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.03.11-21.24.36:230][717]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRTemplate/Blueprints/Flashlight.Flashlight_C
+[2023.03.11-21.24.36:230][717]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRTemplate/Blueprints/Flashlight.Flashlight_C
+[2023.03.11-21.24.36:232][717]LogActorFactory: Actor Factory spawned Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight as actor: Flashlight_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.Flashlight_C_0
+[2023.03.11-21.24.36:234][717]LogActorFactory: Actor Factory spawned Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight as actor: Flashlight_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.Flashlight_C_0
+[2023.03.11-21.24.38:344][864]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRTemplate/Blueprints/Flashlight.Flashlight_C
+[2023.03.11-21.24.38:344][864]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRTemplate/Blueprints/Flashlight.Flashlight_C
+[2023.03.11-21.24.38:348][864]LogActorFactory: Actor Factory spawned Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight as actor: Flashlight_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.Flashlight_C_1
+[2023.03.11-21.24.38:350][864]LogActorFactory: Actor Factory spawned Blueprint /Game/VRTemplate/Blueprints/Flashlight.Flashlight as actor: Flashlight_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.Flashlight_C_1
+[2023.03.11-21.24.38:392][865]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.38:601][878]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.40:559][  6]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.40:605][  9]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.40:678][ 13]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.40:708][ 15]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.40:784][ 20]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.40:981][ 34]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.41:032][ 37]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.41:099][ 41]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.41:282][ 54]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: ================================================
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Total job queries 5, among them cache hits 0 (0.00%)
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 3 distinct outputs (75.00%)
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Jobs assigned 5, completed 4 (80.00%)
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Average time worker was idle: 21667.03 s
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Job execution time: average 7.60 s, max 11.16 s
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Job life time (pending + execution): average 7.64 s, max 11.21
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.48 s
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.03.11-21.24.42:340][122]LogShaderCompilers: Display: Average processing rate: 0.16 jobs/sec
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display: Effective parallelization: 0.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 8.43 sec, max 8.43 sec, min 8.43 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 6.77 sec, max 6.77 sec, min 6.77 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 3.27 sec, max 3.27 sec, min 3.27 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 3.12 sec, max 3.12 sec, min 3.12 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 39.03% of total time (compiled    1 times, average 8.43 sec, max 8.43 sec, min 8.43 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.36% of total time (compiled    1 times, average 6.77 sec, max 6.77 sec, min 6.77 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.17% of total time (compiled    1 times, average 3.27 sec, max 3.27 sec, min 3.27 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 14.45% of total time (compiled    1 times, average 3.12 sec, max 3.12 sec, min 3.12 sec)
+[2023.03.11-21.24.42:341][122]LogShaderCompilers: Display: ================================================
+[2023.03.11-21.24.42:971][157]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.43:146][163]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.24.43:211][165]LogNavigationDataBuild: Navigation data generation finished in /Game/VRTemplate/Maps/VRTemplateMap.
+[2023.03.11-21.25.23:563][131]LogUObjectHash: Compacting FUObjectHashTables data took   5.91ms
+[2023.03.11-21.25.23:596][131]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.03.11-21.25.23:596][131]LogSavePackage: Moving '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Saved/VRTemplateMap11D8892E4E2E4038A4EF158840AC81CA.tmp' to '../../../../../Courses/Senior Project/SeniorProjectVR_Hands/NewVRSterileEnvir/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.03.11-21.25.23:616][131]LogFileHelpers: No new changes to save!
+[2023.03.11-21.25.23:641][131]AssetCheck: New page: Asset Save: VRTemplateMap
+[2023.03.11-21.25.23:641][131]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.03.11-21.25.25:244][263]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.03.11-21.25.25:265][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-21.25.25:265][263]PIE: New page: PIE session: VRTemplateMap (Mar 11, 2023, 5:25:25 AM)
+[2023.03.11-21.25.25:265][263]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.03.11-21.25.25:274][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008989s)
+[2023.03.11-21.25.25:274][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.009117s)
+[2023.03.11-21.25.25:274][263]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.11-21.25.25:275][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-21.25.25:275][263]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.03.11-21.25.25:276][263]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2023.03.11-21.25.25:357][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.03.11-21.25.25:360][263]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-21.25.25:360][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.11-21.25.25:360][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-21.25.25:361][263]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.03.11-21.25.25:361][263]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.03.11-21.25.25:361][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-21.25.25:462][263]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-21.25.25:518][263]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- Focusrite Usb Audio)
+[2023.03.11-21.25.25:518][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-21.25.25:518][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-21.25.25:518][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-21.25.25:519][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.03.11-21.25.25:519][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.03.11-21.25.25:522][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.03.11-21.25.25:522][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.03.11-21.25.25:522][263]LogInit: FAudioDevice initialized.
+[2023.03.11-21.25.25:522][263]LogAudio: Display: Audio Device (ID: 9) registered with world 'VRTemplateMap'.
+[2023.03.11-21.25.25:548][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-21.25.25:548][263]LogViewport: Scene viewport resized to 3704x2056, mode Windowed.
+[2023.03.11-21.25.25:616][263]LogLoad: Game class is 'VRGameMode_C'
+[2023.03.11-21.25.25:622][263]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.03.11-13.25.25
+[2023.03.11-21.25.25:623][263]LogWorld: Bringing up level for play took: 0.005785
+[2023.03.11-21.25.25:626][263]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.03.11-21.25.25:628][263]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.03.11-21.25.25:631][263]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2023.03.11-21.25.25:632][263]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.03.11-21.25.25:666][263]Cmd: vr.PixelDensity 1.0
+[2023.03.11-21.25.25:667][263]vr.PixelDensity = "1"
+[2023.03.11-21.25.25:679][263]PIE: Server logged in
+[2023.03.11-21.25.25:682][263]PIE: Play in editor total start time 0.424 seconds.
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C59270
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C58730
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C58CA0
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C59120
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C59210
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C58940
+[2023.03.11-21.25.25:709][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C58970
+[2023.03.11-21.25.25:710][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217F8C58D90
+[2023.03.11-21.25.25:710][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Creating new TSharedPtr for resource 00000217D3431390
+[2023.03.11-21.25.25:710][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\body.obj rVertexData 0x7af1d170 unVertexCount 10289 rIndexData 0x7ad95010 unTriangleCount 13966 diffuseTextureId 0
+[2023.03.11-21.25.25:712][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:712][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\button.obj rVertexData 0xd41852a0 unVertexCount 145 rIndexData 0x7ac1ec60 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-21.25.25:712][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:712][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\led.obj rVertexData 0x7ac1f900 unVertexCount 49 rIndexData 0xf0d9dfc0 unTriangleCount 60 diffuseTextureId 0
+[2023.03.11-21.25.25:712][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:712][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj rVertexData 0x911c3e40 unVertexCount 210 rIndexData 0xd42cea60 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-21.25.25:712][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:712][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj rVertexData 0x7abb8360 unVertexCount 210 rIndexData 0xd42d8360 unTriangleCount 392 diffuseTextureId 0
+[2023.03.11-21.25.25:712][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj rVertexData 0x9102ff50 unVertexCount 145 rIndexData 0x7ac1ff50 unTriangleCount 264 diffuseTextureId 0
+[2023.03.11-21.25.25:713][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj rVertexData 0x90735980 unVertexCount 515 rIndexData 0x90cd68e0 unTriangleCount 836 diffuseTextureId 0
+[2023.03.11-21.25.25:713][263]LogSteamVR: TSteamVRResourceLoader::WrapResource: Returning existing resource 00000217D3431390
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModel::GetRawMeshData ResourceId C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\rendermodels\vr_controller_vive_1_5\trigger.obj rVertexData 0x48240a40 unVertexCount 636 rIndexData 0x7ac08920 unTriangleCount 1152 diffuseTextureId 0
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRTextureLoader::FreeResource_Internal: Freeing texture resource 00000217D3431390
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C59270
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C58730
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C58CA0
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C59120
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C59210
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C58940
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C58970
+[2023.03.11-21.25.25:713][263]LogSteamVR: FSteamVRModelLoader::FreeResource_Internal: Freeing render model instance 00000217F8C58D90
+[2023.03.11-21.25.25:729][263]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.03.11-21.26.02:890][759]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=5.93 Y=4.05 Z=0.00 Location: X=65.89 Y=-5.32 Z=90.21 Normal: X=0.30 Y=-0.92 Z=-0.25 PenetrationDepth:32.466 Actor:Flashlight_C_1 Component:flashlight BoneName:None (0 other events since notify)
+[2023.03.11-21.26.03:880][839]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-44.92 Y=227.22 Z=0.00 Location: X=65.89 Y=-5.32 Z=90.21 Normal: X=0.27 Y=-0.95 Z=-0.16 PenetrationDepth:29.917 Actor:Flashlight_C_1 Component:flashlight BoneName:None (79 other events since notify)
+[2023.03.11-21.26.04:894][915]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-6.96 Y=149.59 Z=0.00 Location: X=50.39 Y=-465.89 Z=90.21 Normal: X=-0.08 Y=-1.00 Z=-0.00 PenetrationDepth:31.262 Actor:Flashlight_C_1 Component:flashlight BoneName:None (36 other events since notify)
+[2023.03.11-21.26.05:911][996]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-18.05 Y=242.88 Z=0.00 Location: X=51.42 Y=-465.74 Z=90.21 Normal: X=-0.08 Y=-1.00 Z=-0.00 PenetrationDepth:29.865 Actor:Flashlight_C_1 Component:flashlight BoneName:None (24 other events since notify)
+[2023.03.11-21.26.06:917][ 73]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=108.01 Y=192.11 Z=0.00 Location: X=51.42 Y=-465.94 Z=90.21 Normal: X=-0.08 Y=-1.00 Z=0.00 PenetrationDepth:29.491 Actor:Flashlight_C_1 Component:flashlight BoneName:None (59 other events since notify)
+[2023.03.11-21.26.07:935][159]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-35.98 Y=56.87 Z=0.00 Location: X=51.36 Y=-465.93 Z=90.21 Normal: X=0.13 Y=-0.99 Z=0.00 PenetrationDepth:26.889 Actor:Flashlight_C_1 Component:flashlight BoneName:None (56 other events since notify)
+[2023.03.11-21.26.10:190][325]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=21.93 Y=74.63 Z=0.00 Location: X=65.36 Y=-465.53 Z=90.21 Normal: X=-0.45 Y=-0.89 Z=0.00 PenetrationDepth:3.804 Actor:Flashlight_C_1 Component:flashlight BoneName:None (18 other events since notify)
+[2023.03.11-21.26.15:006][702]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=186.85 Y=39.07 Z=0.00 Location: X=402.66 Y=-108.58 Z=88.13 Normal: X=0.11 Y=-0.90 Z=-0.42 PenetrationDepth:1.252 Actor:Flashlight_C_1 Component:flashlight BoneName:None (0 other events since notify)
+[2023.03.11-21.26.16:615][819]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-6.21 Y=-107.89 Z=0.00 Location: X=325.80 Y=-276.30 Z=88.19 Normal: X=-0.00 Y=-0.91 Z=-0.42 PenetrationDepth:4.999 Actor:Flashlight_C_1 Component:flashlight BoneName:None (66 other events since notify)
+[2023.03.11-21.26.17:789][924]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=38.67 Y=-60.60 Z=0.00 Location: X=133.24 Y=-465.85 Z=88.25 Normal: X=-0.00 Y=-0.90 Z=-0.44 PenetrationDepth:4.932 Actor:Flashlight_C_1 Component:flashlight BoneName:None (32 other events since notify)
+[2023.03.11-21.26.18:802][995]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=75.32 Y=8.46 Z=0.00 Location: X=135.46 Y=-465.74 Z=88.07 Normal: X=0.01 Y=-0.90 Z=-0.44 PenetrationDepth:5.419 Actor:Flashlight_C_1 Component:flashlight BoneName:None (55 other events since notify)
+[2023.03.11-21.26.22:187][252]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=228.54 Y=76.09 Z=0.00 Location: X=344.83 Y=-120.48 Z=88.10 Normal: X=0.22 Y=-0.95 Z=-0.24 PenetrationDepth:1.117 Actor:Flashlight_C_1 Component:flashlight BoneName:None (36 other events since notify)
+[2023.03.11-21.26.24:755][479]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=218.17 Y=-122.71 Z=0.00 Location: X=735.34 Y=-87.58 Z=88.11 Normal: X=-0.41 Y=-0.73 Z=-0.55 PenetrationDepth:22.590 Actor:Flashlight_C_1 Component:flashlight BoneName:None (11 other events since notify)
+[2023.03.11-21.26.29:081][820]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=32.65 Y=-1.06 Z=0.00 Location: X=561.21 Y=-325.08 Z=88.25 Normal: X=-0.15 Y=-0.91 Z=-0.38 PenetrationDepth:21.117 Actor:Flashlight_C_1 Component:flashlight BoneName:None (31 other events since notify)
+[2023.03.11-21.26.30:452][920]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=22.59 Y=111.48 Z=0.00 Location: X=780.51 Y=-464.96 Z=89.86 Normal: X=0.22 Y=-0.98 Z=-0.03 PenetrationDepth:22.773 Actor:Flashlight_C_1 Component:flashlight BoneName:None (16 other events since notify)
+[2023.03.11-21.26.55:932][835]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-0.66 Y=55.05 Z=0.00 Location: X=952.18 Y=320.13 Z=88.13 Normal: X=0.09 Y=-0.72 Z=-0.69 PenetrationDepth:2.650 Actor:Flashlight_C_1 Component:flashlight BoneName:None (32 other events since notify)
+[2023.03.11-21.26.56:962][927]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=41.96 Y=147.17 Z=0.00 Location: X=967.97 Y=387.94 Z=88.36 Normal: X=-0.11 Y=-0.83 Z=-0.55 PenetrationDepth:5.127 Actor:Flashlight_C_1 Component:flashlight BoneName:None (42 other events since notify)
+[2023.03.11-21.27.00:543][114]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-8.15 Y=-4.58 Z=0.00 Location: X=1162.24 Y=322.13 Z=88.33 Normal: X=0.37 Y=0.70 Z=-0.61 PenetrationDepth:3.988 Actor:Flashlight_C_1 Component:flashlight BoneName:None (8 other events since notify)
+[2023.03.11-21.27.02:205][213]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=6.99 Y=3.35 Z=0.00 Location: X=1169.83 Y=367.75 Z=88.09 Normal: X=-0.79 Y=-0.38 Z=-0.48 PenetrationDepth:22.665 Actor:Flashlight_C_1 Component:flashlight BoneName:None (9 other events since notify)
+[2023.03.11-21.27.11:179][803]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-7.88 Y=0.54 Z=0.00 Location: X=1410.18 Y=465.88 Z=88.09 Normal: X=0.95 Y=0.00 Z=-0.30 PenetrationDepth:0.198 Actor:Flashlight_C_1 Component:flashlight BoneName:None (39 other events since notify)
+[2023.03.11-21.27.12:182][848]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-71.29 Y=-57.59 Z=0.00 Location: X=1465.04 Y=420.68 Z=88.07 Normal: X=0.98 Y=-0.04 Z=-0.18 PenetrationDepth:10.380 Actor:Flashlight_C_1 Component:flashlight BoneName:None (10 other events since notify)
+[2023.03.11-21.27.13:187][893]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-236.52 Y=-55.09 Z=0.00 Location: X=1465.64 Y=422.88 Z=88.07 Normal: X=0.98 Y=-0.15 Z=-0.08 PenetrationDepth:3.959 Actor:Flashlight_C_1 Component:flashlight BoneName:None (32 other events since notify)
+[2023.03.11-21.27.15:042][976]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=14.43 Y=9.49 Z=0.00 Location: X=1465.95 Y=465.84 Z=90.21 Normal: X=0.90 Y=-0.36 Z=-0.22 PenetrationDepth:4.591 Actor:Flashlight_C_1 Component:flashlight BoneName:None (6 other events since notify)
+[2023.03.11-21.27.16:047][ 21]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-174.08 Y=6.34 Z=0.00 Location: X=1465.71 Y=465.88 Z=88.09 Normal: X=0.71 Y=-0.39 Z=-0.59 PenetrationDepth:13.419 Actor:Flashlight_C_1 Component:flashlight BoneName:None (26 other events since notify)
+[2023.03.11-21.27.17:097][ 68]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=-0.92 Y=9.39 Z=0.00 Location: X=1465.71 Y=465.88 Z=88.09 Normal: X=0.84 Y=-0.38 Z=-0.38 PenetrationDepth:8.911 Actor:Flashlight_C_1 Component:flashlight BoneName:None (30 other events since notify)
+[2023.03.11-21.27.27:318][601]LogCharacterMovement: VRPawn_C_0 is stuck and failed to move! Velocity: X=21.51 Y=-104.75 Z=0.00 Location: X=1466.01 Y=214.12 Z=311.18 Normal: X=0.97 Y=0.23 Z=0.00 PenetrationDepth:41.388 Actor:Flashlight_C_1 Component:flashlight BoneName:None (6 other events since notify)
+[2023.03.11-21.27.54:020][148]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.11-21.27.54:070][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-21.27.54:070][148]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.03.11-21.27.54:105][148]LogSlate: Window 'NewVRSterileEnvir Preview [NetMode: Standalone]  (64-bit/SM5) SteamVR 5.0.3-20979098+++UE5+Release-5.0, Driver: lighthouse, Serial: LHR-509DC997, HMD Device: HTC Vive DVT, Driver version: TrackedProp_UnknownProperty' being destroyed
+[2023.03.11-21.27.54:140][148]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-21.27.54:140][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-21.27.54:155][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-21.27.54:164][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-21.27.54:262][148]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.03.11-21.27.54:262][148]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.11-21.27.54:264][148]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.11-21.27.54:274][148]LogSlate: Slate User Unregistered.  User Index 8
+[2023.03.11-21.27.54:274][148]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.03.11-21.27.54:278][148]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.03.11-21.27.54:309][149]LogPlayLevel: Display: Destroying online subsystem :Context_33
